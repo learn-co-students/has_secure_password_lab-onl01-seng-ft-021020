@@ -1,0 +1,7 @@
+<h1> Log In </h1>
+
+<%= form_tag ({controller: 'session', action: 'create', method: 'post'}) do %>
+  Name: <input name="name" id="name">
+  Password: <input name+"password" id="password">
+  <input type="submit" value="login">
+  <% end %>
